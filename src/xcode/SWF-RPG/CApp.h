@@ -25,10 +25,6 @@ class CApp : public CEvent {
         CTalkNPC		NpcName;
         CTalkNPC		Npc2;
         CTalkNPC		Npc2Name;
-        CTalkNPC		Npc3;
-        CTalkNPC		Npc3Name;
-        CTalkNPC		Npc4;
-        CTalkNPC		Npc4Name;
 
     public:
         CApp();

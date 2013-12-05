@@ -37,30 +37,12 @@ bool CApp::OnInit() {
     if (Npc2Name.OnLoad("SWF-RPG.app/Contents/Resources/dan-the-dna-man.png", 64, 64, 8) == false) {
         return false;
     }
-    
-    if (Npc3.OnLoad("SWF-RPG.app/Contents/Resources/dna-char.png", 64, 64, 8) == false) {
-        return false;
-    }
-    
-    if (Npc3Name.OnLoad("SWF-RPG.app/Contents/Resources/dan-the-dna-man.png", 64, 64, 8) == false) {
-        return false;
-    }
-    
-    if (Npc4.OnLoad("SWF-RPG.app/Contents/Resources/dna-char.png", 64, 64, 8) == false) {
-        return false;
-    }
-    
-    if (Npc4Name.OnLoad("SWF-RPG.app/Contents/Resources/dan-the-dna-man.png", 64, 64, 8) == false) {
-        return false;
-    }
 
     Npc.X = 150;
     NpcName.X = 150;
     Npc2.X = 150;
     Npc2Name.X = 150;
     Npc2Name.Dead = true;
-    Npc3Name.Dead = true;
-    Npc4Name.Dead = true;
     //Player2.Dead = true;
     //Player.Flags = 0;
     Npc.Y = 145;
