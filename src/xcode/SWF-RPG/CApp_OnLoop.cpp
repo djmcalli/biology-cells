@@ -11,7 +11,7 @@ void CApp::OnLoop() {
 
     char Buffer[249];
     sprintf(Buffer, "%d", CFPS::FPSControl.GetFPS());
-    char T[6] = "FPS:";
+    char T[20] = "[Cell Project] FPS:";
     char BB[255];
     sprintf(BB, "%s %s", T, Buffer);
     SDL_WM_SetCaption(BB, Buffer);
