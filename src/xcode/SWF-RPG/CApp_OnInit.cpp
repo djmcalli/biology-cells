@@ -37,7 +37,6 @@ bool CApp::OnInit() {
     if (Npc2Name.OnLoad("SWF-RPG.app/Contents/Resources/dan-the-dna-man.png", 64, 64, 8) == false) {
         return false;
     }
-
     Npc.X = 150;
     NpcName.X = 150;
     Npc2.X = 150;
@@ -50,6 +49,9 @@ bool CApp::OnInit() {
     
     Npc2.Y = 785;
     Npc2Name.Y = 725;
+    
+    Npc.eid = 1;
+    Npc2.eid = 2;
 
     CEntity::EntityList.push_back(&Player);
     CEntity::EntityList.push_back(&Npc);

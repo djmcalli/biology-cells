@@ -10,7 +10,7 @@ int CApp::OnExecute() {
     if (OnInit() == false) {
         return -1;
     }
-
+    
     SDL_Event Event;
 
     while (Running) {

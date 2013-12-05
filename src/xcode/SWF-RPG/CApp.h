@@ -13,9 +13,11 @@
 #include "CPlayer.h"
 #include "CSurface.h"
 #include "CTalkNPC.h"
+#include "CMusic.h"
 
 class CApp : public CEvent {
     private:
+        bool            MusicRunning;
         bool            Running;
 
         SDL_Surface*    Surf_Display;

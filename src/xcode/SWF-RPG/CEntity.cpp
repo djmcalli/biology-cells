@@ -47,6 +47,8 @@ CEntity::CEntity() {
 
 	Col_Width  = 0;
 	Col_Height = 0;
+    
+    eid = 0;
 }
 
 CEntity::~CEntity() {

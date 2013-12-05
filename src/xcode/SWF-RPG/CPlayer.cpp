@@ -37,7 +37,15 @@ void CPlayer::OnAnimate() {
 }
 
 void CPlayer::OnCollision(CEntity* Entity) {
-    std::cout << "Collided!: " << Entity->Type;
+    switch (Entity->eid) {
+        case 1:
+            CMusic::MusicControl.OnPlay("SWF-RPG.app/Contents/Resources/Bullseye.ogg");
+            break;
+        default:
+            
+            break;
+    }
+    std::cout << "Collided!: " << Entity->Type << " " << "ID: " << Entity->eid << "\n";
     
     //canMove = true;
 }

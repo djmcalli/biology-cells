@@ -8,6 +8,7 @@
 #include "CCamera.h"
 #include "CFPS.h"
 #include "CSurface.h"
+#include "CMusic.h"
 
 enum {
     ENTITY_TYPE_GENERIC = 0,
@@ -50,6 +51,7 @@ class CEntity {
         bool       Dead;
         bool       canMove = false;
         int        Flags;
+        int        eid;
 
     protected:
         float        SpeedX;

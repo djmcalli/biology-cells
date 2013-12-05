@@ -9,6 +9,7 @@ void CApp::OnCleanup() {
     CEntity::EntityList.clear();
 
     CArea::AreaControl.OnCleanup();
+    CMusic::MusicControl.cleanUp();
 
     SDL_FreeSurface(Surf_Display);
     SDL_Quit();
