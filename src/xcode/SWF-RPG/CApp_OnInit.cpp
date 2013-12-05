@@ -21,7 +21,7 @@ bool CApp::OnInit() {
     if (Player.OnLoad("SWF-RPG.app/Contents/Resources/player-2.png", 64, 64, 8) == false) {
         return false;
     }
-
+    
     if (Npc.OnLoad("SWF-RPG.app/Contents/Resources/dna-char.png", 64, 64, 8) == false) {
         return false;
     }
