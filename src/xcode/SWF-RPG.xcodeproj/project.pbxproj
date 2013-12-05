@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5489466184FC01C00AA9C3B /* grid.bmp in Resources */ = {isa = PBXBuildFile; fileRef = D5489451184FC01C00AA9C3B /* grid.bmp */; };
+		D5489467184FC01C00AA9C3B /* entity1.bmp in Resources */ = {isa = PBXBuildFile; fileRef = D5489453184FC01C00AA9C3B /* entity1.bmp */; };
+		D5489468184FC01C00AA9C3B /* entity2.bmp in Resources */ = {isa = PBXBuildFile; fileRef = D5489454184FC01C00AA9C3B /* entity2.bmp */; };
+		D5489469184FC01C00AA9C3B /* o.bmp in Resources */ = {isa = PBXBuildFile; fileRef = D5489455184FC01C00AA9C3B /* o.bmp */; };
+		D548946A184FC01C00AA9C3B /* player-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D5489456184FC01C00AA9C3B /* player-2.png */; };
+		D548946B184FC01C00AA9C3B /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = D5489457184FC01C00AA9C3B /* player.png */; };
+		D548946C184FC01C00AA9C3B /* player_template.pdn in Resources */ = {isa = PBXBuildFile; fileRef = D5489458184FC01C00AA9C3B /* player_template.pdn */; };
+		D548946F184FC01C00AA9C3B /* x.bmp in Resources */ = {isa = PBXBuildFile; fileRef = D548945C184FC01C00AA9C3B /* x.bmp */; };
+		D5489470184FC01C00AA9C3B /* yoshi.bmp in Resources */ = {isa = PBXBuildFile; fileRef = D548945D184FC01C00AA9C3B /* yoshi.bmp */; };
+		D5489471184FC01C00AA9C3B /* 1.area in Resources */ = {isa = PBXBuildFile; fileRef = D548945F184FC01C00AA9C3B /* 1.area */; };
+		D5489472184FC01C00AA9C3B /* 1.swflvl in Resources */ = {isa = PBXBuildFile; fileRef = D5489460184FC01C00AA9C3B /* 1.swflvl */; };
+		D5489473184FC01C00AA9C3B /* 2.swflvl in Resources */ = {isa = PBXBuildFile; fileRef = D5489461184FC01C00AA9C3B /* 2.swflvl */; };
+		D5489474184FC01C00AA9C3B /* t1.bmp in Resources */ = {isa = PBXBuildFile; fileRef = D5489463184FC01C00AA9C3B /* t1.bmp */; };
+		D5489475184FC01C00AA9C3B /* t1.png in Resources */ = {isa = PBXBuildFile; fileRef = D5489464184FC01C00AA9C3B /* t1.png */; };
+		D5489476184FC01C00AA9C3B /* t2.png in Resources */ = {isa = PBXBuildFile; fileRef = D5489465184FC01C00AA9C3B /* t2.png */; };
+		D5489479185027D400AA9C3B /* CTalkNPC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5489478185027D400AA9C3B /* CTalkNPC.cpp */; };
+		D548947D185032DD00AA9C3B /* dna-char.png in Resources */ = {isa = PBXBuildFile; fileRef = D548947C185032DD00AA9C3B /* dna-char.png */; };
+		D548947F1850355300AA9C3B /* 3.swflvl in Resources */ = {isa = PBXBuildFile; fileRef = D548947E1850355300AA9C3B /* 3.swflvl */; };
+		D54894811850372800AA9C3B /* dan-the-dna-man.png in Resources */ = {isa = PBXBuildFile; fileRef = D54894801850372800AA9C3B /* dan-the-dna-man.png */; };
+		D5862F6E18303B390037989A /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5862F6C18303B390037989A /* SDL_image.framework */; };
+		D5862F6F18303B390037989A /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5862F6D18303B390037989A /* SDL.framework */; };
+		D5862F7018303B4D0037989A /* SDL_image.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D5862F6C18303B390037989A /* SDL_image.framework */; };
+		D5862F7118303B4D0037989A /* SDL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D5862F6D18303B390037989A /* SDL.framework */; };
+		D5862F7318303D6F0037989A /* SDL_net.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5862F7218303D6F0037989A /* SDL_net.framework */; };
+		D5862F7418303D780037989A /* SDL_net.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D5862F7218303D6F0037989A /* SDL_net.framework */; };
+		D5DEABF71827E328002D735A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DEABF61827E328002D735A /* Cocoa.framework */; };
+		D5DEAC011827E328002D735A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5DEABFF1827E328002D735A /* InfoPlist.strings */; };
+		D5DEAC071827E328002D735A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D5DEAC051827E328002D735A /* Credits.rtf */; };
+		D5DEAC0A1827E328002D735A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DEAC091827E328002D735A /* AppDelegate.m */; };
+		D5DEAC0D1827E328002D735A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5DEAC0B1827E328002D735A /* MainMenu.xib */; };
+		D5DEAC0F1827E328002D735A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5DEAC0E1827E328002D735A /* Images.xcassets */; };
+		D5DEAC161827E328002D735A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DEAC151827E328002D735A /* XCTest.framework */; };
+		D5DEAC171827E328002D735A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DEABF61827E328002D735A /* Cocoa.framework */; };
+		D5DEAC1F1827E328002D735A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5DEAC1D1827E328002D735A /* InfoPlist.strings */; };
+		D5DEAC211827E328002D735A /* SWF_RPGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DEAC201827E328002D735A /* SWF_RPGTests.m */; };
+		D5DEAC2E1827E3DB002D735A /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DEAC2D1827E3DB002D735A /* SDLMain.m */; };
+		D5DEAC4E182809E5002D735A /* CAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DEAC32182809E5002D735A /* CAnimation.cpp */; };
+		D5DEAC4F182809E5002D735A /* CApp_OnCleanup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DEAC34182809E5002D735A /* CApp_OnCleanup.cpp */; };
+		D5DEAC50182809E5002D735A /* CApp_OnEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DEAC35182809E5002D735A /* CApp_OnEvent.cpp */; };
+		D5DEAC51182809E5002D735A /* CApp_OnInit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DEAC36182809E5002D735A /* CApp_OnInit.cpp */; };
+		D5DEAC52182809E5002D735A /* CApp_OnLoop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DEAC37182809E5002D735A /* CApp_OnLoop.cpp */; };
+		D5DEAC53182809E5002D735A /* CApp_OnRender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DEAC38182809E5002D735A /* CApp_OnRender.cpp */; };
+		D5DEAC54182809E5002D735A /* CApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DEAC39182809E5002D735A /* CApp.cpp */; };
+		D5DEAC55182809E5002D735A /* CArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DEAC3B182809E5002D735A /* CArea.cpp */; };
+		D5DEAC56182809E5002D735A /* CCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DEAC3D182809E5002D735A /* CCamera.cpp */; };
+		D5DEAC57182809E5002D735A /* CEntity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DEAC3F182809E5002D735A /* CEntity.cpp */; };
+		D5DEAC58182809E5002D735A /* CEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DEAC41182809E5002D735A /* CEvent.cpp */; };
+		D5DEAC59182809E5002D735A /* CFPS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DEAC43182809E5002D735A /* CFPS.cpp */; };
+		D5DEAC5A182809E5002D735A /* CMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DEAC45182809E5002D735A /* CMap.cpp */; };
+		D5DEAC5B182809E5002D735A /* CPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DEAC47182809E5002D735A /* CPlayer.cpp */; };
+		D5DEAC5C182809E5002D735A /* CSurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DEAC49182809E5002D735A /* CSurface.cpp */; };
+		D5DEAC5D182809E5002D735A /* CTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5DEAC4B182809E5002D735A /* CTile.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5DEAC181827E328002D735A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5DEABEB1827E328002D735A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5DEABF21827E328002D735A;
+			remoteInfo = "SWF-RPG";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D5862F6B18303B120037989A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D5862F7418303D780037989A /* SDL_net.framework in CopyFiles */,
+				D5862F7018303B4D0037989A /* SDL_image.framework in CopyFiles */,
+				D5862F7118303B4D0037989A /* SDL.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D5489451184FC01C00AA9C3B /* grid.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = grid.bmp; sourceTree = "<group>"; };
+		D5489453184FC01C00AA9C3B /* entity1.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = entity1.bmp; sourceTree = "<group>"; };
+		D5489454184FC01C00AA9C3B /* entity2.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = entity2.bmp; sourceTree = "<group>"; };
+		D5489455184FC01C00AA9C3B /* o.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = o.bmp; sourceTree = "<group>"; };
+		D5489456184FC01C00AA9C3B /* player-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player-2.png"; sourceTree = "<group>"; };
+		D5489457184FC01C00AA9C3B /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		D5489458184FC01C00AA9C3B /* player_template.pdn */ = {isa = PBXFileReference; lastKnownFileType = file; path = player_template.pdn; sourceTree = "<group>"; };
+		D548945C184FC01C00AA9C3B /* x.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = x.bmp; sourceTree = "<group>"; };
+		D548945D184FC01C00AA9C3B /* yoshi.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = yoshi.bmp; sourceTree = "<group>"; };
+		D548945F184FC01C00AA9C3B /* 1.area */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1.area; sourceTree = "<group>"; };
+		D5489460184FC01C00AA9C3B /* 1.swflvl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1.swflvl; sourceTree = "<group>"; };
+		D5489461184FC01C00AA9C3B /* 2.swflvl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2.swflvl; sourceTree = "<group>"; };
+		D5489463184FC01C00AA9C3B /* t1.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = t1.bmp; sourceTree = "<group>"; };
+		D5489464184FC01C00AA9C3B /* t1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t1.png; sourceTree = "<group>"; };
+		D5489465184FC01C00AA9C3B /* t2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t2.png; sourceTree = "<group>"; };
+		D5489477185027BC00AA9C3B /* CTalkNPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTalkNPC.h; sourceTree = "<group>"; };
+		D5489478185027D400AA9C3B /* CTalkNPC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CTalkNPC.cpp; sourceTree = "<group>"; };
+		D548947C185032DD00AA9C3B /* dna-char.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dna-char.png"; sourceTree = "<group>"; };
+		D548947E1850355300AA9C3B /* 3.swflvl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3.swflvl; sourceTree = "<group>"; };
+		D54894801850372800AA9C3B /* dan-the-dna-man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dan-the-dna-man.png"; sourceTree = "<group>"; };
+		D5862F6C18303B390037989A /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = ../../../../../Library/Frameworks/SDL_image.framework; sourceTree = "<group>"; };
+		D5862F6D18303B390037989A /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = ../../../../../Library/Frameworks/SDL.framework; sourceTree = "<group>"; };
+		D5862F7218303D6F0037989A /* SDL_net.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_net.framework; path = ../../../../../Library/Frameworks/SDL_net.framework; sourceTree = "<group>"; };
+		D5DEABF31827E328002D735A /* SWF-RPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SWF-RPG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DEABF61827E328002D735A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D5DEABF91827E328002D735A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D5DEABFA1827E328002D735A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D5DEABFB1827E328002D735A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D5DEABFE1827E328002D735A /* SWF-RPG-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SWF-RPG-Info.plist"; sourceTree = "<group>"; };
+		D5DEAC001827E328002D735A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D5DEAC041827E328002D735A /* SWF-RPG-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SWF-RPG-Prefix.pch"; sourceTree = "<group>"; };
+		D5DEAC061827E328002D735A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D5DEAC081827E328002D735A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5DEAC091827E328002D735A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5DEAC0C1827E328002D735A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D5DEAC0E1827E328002D735A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D5DEAC141827E328002D735A /* SWF-RPGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SWF-RPGTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DEAC151827E328002D735A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D5DEAC1C1827E328002D735A /* SWF-RPGTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SWF-RPGTests-Info.plist"; sourceTree = "<group>"; };
+		D5DEAC1E1827E328002D735A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D5DEAC201827E328002D735A /* SWF_RPGTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWF_RPGTests.m; sourceTree = "<group>"; };
+		D5DEAC2C1827E3DB002D735A /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
+		D5DEAC2D1827E3DB002D735A /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = "<group>"; };
+		D5DEAC32182809E5002D735A /* CAnimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAnimation.cpp; sourceTree = "<group>"; };
+		D5DEAC33182809E5002D735A /* CAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAnimation.h; sourceTree = "<group>"; };
+		D5DEAC34182809E5002D735A /* CApp_OnCleanup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CApp_OnCleanup.cpp; sourceTree = "<group>"; };
+		D5DEAC35182809E5002D735A /* CApp_OnEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CApp_OnEvent.cpp; sourceTree = "<group>"; };
+		D5DEAC36182809E5002D735A /* CApp_OnInit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CApp_OnInit.cpp; sourceTree = "<group>"; };
+		D5DEAC37182809E5002D735A /* CApp_OnLoop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CApp_OnLoop.cpp; sourceTree = "<group>"; };
+		D5DEAC38182809E5002D735A /* CApp_OnRender.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CApp_OnRender.cpp; sourceTree = "<group>"; };
+		D5DEAC39182809E5002D735A /* CApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CApp.cpp; sourceTree = "<group>"; };
+		D5DEAC3A182809E5002D735A /* CApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CApp.h; sourceTree = "<group>"; };
+		D5DEAC3B182809E5002D735A /* CArea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CArea.cpp; sourceTree = "<group>"; };
+		D5DEAC3C182809E5002D735A /* CArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CArea.h; sourceTree = "<group>"; };
+		D5DEAC3D182809E5002D735A /* CCamera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCamera.cpp; sourceTree = "<group>"; };
+		D5DEAC3E182809E5002D735A /* CCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCamera.h; sourceTree = "<group>"; };
+		D5DEAC3F182809E5002D735A /* CEntity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CEntity.cpp; sourceTree = "<group>"; };
+		D5DEAC40182809E5002D735A /* CEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEntity.h; sourceTree = "<group>"; };
+		D5DEAC41182809E5002D735A /* CEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CEvent.cpp; sourceTree = "<group>"; };
+		D5DEAC42182809E5002D735A /* CEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEvent.h; sourceTree = "<group>"; };
+		D5DEAC43182809E5002D735A /* CFPS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CFPS.cpp; sourceTree = "<group>"; };
+		D5DEAC44182809E5002D735A /* CFPS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFPS.h; sourceTree = "<group>"; };
+		D5DEAC45182809E5002D735A /* CMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CMap.cpp; sourceTree = "<group>"; };
+		D5DEAC46182809E5002D735A /* CMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMap.h; sourceTree = "<group>"; };
+		D5DEAC47182809E5002D735A /* CPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPlayer.cpp; sourceTree = "<group>"; };
+		D5DEAC48182809E5002D735A /* CPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPlayer.h; sourceTree = "<group>"; };
+		D5DEAC49182809E5002D735A /* CSurface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CSurface.cpp; sourceTree = "<group>"; };
+		D5DEAC4A182809E5002D735A /* CSurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSurface.h; sourceTree = "<group>"; };
+		D5DEAC4B182809E5002D735A /* CTile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CTile.cpp; sourceTree = "<group>"; };
+		D5DEAC4C182809E5002D735A /* CTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTile.h; sourceTree = "<group>"; };
+		D5DEAC4D182809E5002D735A /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5DEABF01827E328002D735A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5862F7318303D6F0037989A /* SDL_net.framework in Frameworks */,
+				D5862F6E18303B390037989A /* SDL_image.framework in Frameworks */,
+				D5862F6F18303B390037989A /* SDL.framework in Frameworks */,
+				D5DEABF71827E328002D735A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DEAC111827E328002D735A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DEAC171827E328002D735A /* Cocoa.framework in Frameworks */,
+				D5DEAC161827E328002D735A /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D548944F184FBFD700AA9C3B /* RES */ = {
+			isa = PBXGroup;
+			children = (
+				D5489450184FC01C00AA9C3B /* gfx */,
+				D548945E184FC01C00AA9C3B /* maps */,
+				D5489462184FC01C00AA9C3B /* tilesets */,
+			);
+			name = RES;
+			sourceTree = "<group>";
+		};
+		D5489450184FC01C00AA9C3B /* gfx */ = {
+			isa = PBXGroup;
+			children = (
+				D5489451184FC01C00AA9C3B /* grid.bmp */,
+				D5489452184FC01C00AA9C3B /* npcs */,
+				D5489455184FC01C00AA9C3B /* o.bmp */,
+				D548947C185032DD00AA9C3B /* dna-char.png */,
+				D5489456184FC01C00AA9C3B /* player-2.png */,
+				D54894801850372800AA9C3B /* dan-the-dna-man.png */,
+				D5489457184FC01C00AA9C3B /* player.png */,
+				D5489458184FC01C00AA9C3B /* player_template.pdn */,
+				D548945C184FC01C00AA9C3B /* x.bmp */,
+				D548945D184FC01C00AA9C3B /* yoshi.bmp */,
+			);
+			path = gfx;
+			sourceTree = "<group>";
+		};
+		D5489452184FC01C00AA9C3B /* npcs */ = {
+			isa = PBXGroup;
+			children = (
+				D5489453184FC01C00AA9C3B /* entity1.bmp */,
+				D5489454184FC01C00AA9C3B /* entity2.bmp */,
+			);
+			path = npcs;
+			sourceTree = "<group>";
+		};
+		D548945E184FC01C00AA9C3B /* maps */ = {
+			isa = PBXGroup;
+			children = (
+				D548947E1850355300AA9C3B /* 3.swflvl */,
+				D548945F184FC01C00AA9C3B /* 1.area */,
+				D5489460184FC01C00AA9C3B /* 1.swflvl */,
+				D5489461184FC01C00AA9C3B /* 2.swflvl */,
+			);
+			path = maps;
+			sourceTree = "<group>";
+		};
+		D5489462184FC01C00AA9C3B /* tilesets */ = {
+			isa = PBXGroup;
+			children = (
+				D5489463184FC01C00AA9C3B /* t1.bmp */,
+				D5489464184FC01C00AA9C3B /* t1.png */,
+				D5489465184FC01C00AA9C3B /* t2.png */,
+			);
+			path = tilesets;
+			sourceTree = "<group>";
+		};
+		D5DEABEA1827E328002D735A = {
+			isa = PBXGroup;
+			children = (
+				D548944F184FBFD700AA9C3B /* RES */,
+				D5DEABFC1827E328002D735A /* SWF-RPG */,
+				D5DEAC1A1827E328002D735A /* SWF-RPGTests */,
+				D5DEABF51827E328002D735A /* Frameworks */,
+				D5DEABF41827E328002D735A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5DEABF41827E328002D735A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5DEABF31827E328002D735A /* SWF-RPG.app */,
+				D5DEAC141827E328002D735A /* SWF-RPGTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5DEABF51827E328002D735A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5862F7218303D6F0037989A /* SDL_net.framework */,
+				D5862F6C18303B390037989A /* SDL_image.framework */,
+				D5862F6D18303B390037989A /* SDL.framework */,
+				D5DEABF61827E328002D735A /* Cocoa.framework */,
+				D5DEAC151827E328002D735A /* XCTest.framework */,
+				D5DEABF81827E328002D735A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5DEABF81827E328002D735A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5DEABF91827E328002D735A /* AppKit.framework */,
+				D5DEABFA1827E328002D735A /* CoreData.framework */,
+				D5DEABFB1827E328002D735A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D5DEABFC1827E328002D735A /* SWF-RPG */ = {
+			isa = PBXGroup;
+			children = (
+				D5DEAC32182809E5002D735A /* CAnimation.cpp */,
+				D5DEAC33182809E5002D735A /* CAnimation.h */,
+				D5DEAC34182809E5002D735A /* CApp_OnCleanup.cpp */,
+				D5DEAC35182809E5002D735A /* CApp_OnEvent.cpp */,
+				D5DEAC36182809E5002D735A /* CApp_OnInit.cpp */,
+				D5DEAC37182809E5002D735A /* CApp_OnLoop.cpp */,
+				D5DEAC38182809E5002D735A /* CApp_OnRender.cpp */,
+				D5DEAC39182809E5002D735A /* CApp.cpp */,
+				D5DEAC3A182809E5002D735A /* CApp.h */,
+				D5DEAC3B182809E5002D735A /* CArea.cpp */,
+				D5DEAC3C182809E5002D735A /* CArea.h */,
+				D5DEAC3D182809E5002D735A /* CCamera.cpp */,
+				D5DEAC3E182809E5002D735A /* CCamera.h */,
+				D5DEAC3F182809E5002D735A /* CEntity.cpp */,
+				D5DEAC40182809E5002D735A /* CEntity.h */,
+				D5DEAC41182809E5002D735A /* CEvent.cpp */,
+				D5DEAC42182809E5002D735A /* CEvent.h */,
+				D5DEAC43182809E5002D735A /* CFPS.cpp */,
+				D5DEAC44182809E5002D735A /* CFPS.h */,
+				D5DEAC45182809E5002D735A /* CMap.cpp */,
+				D5DEAC46182809E5002D735A /* CMap.h */,
+				D5DEAC47182809E5002D735A /* CPlayer.cpp */,
+				D5DEAC48182809E5002D735A /* CPlayer.h */,
+				D5DEAC49182809E5002D735A /* CSurface.cpp */,
+				D5DEAC4A182809E5002D735A /* CSurface.h */,
+				D5DEAC4B182809E5002D735A /* CTile.cpp */,
+				D5DEAC4C182809E5002D735A /* CTile.h */,
+				D5DEAC4D182809E5002D735A /* Define.h */,
+				D5DEAC2C1827E3DB002D735A /* SDLMain.h */,
+				D5DEAC2D1827E3DB002D735A /* SDLMain.m */,
+				D5DEAC081827E328002D735A /* AppDelegate.h */,
+				D5DEAC091827E328002D735A /* AppDelegate.m */,
+				D5DEAC0B1827E328002D735A /* MainMenu.xib */,
+				D5DEAC0E1827E328002D735A /* Images.xcassets */,
+				D5DEABFD1827E328002D735A /* Supporting Files */,
+				D5489477185027BC00AA9C3B /* CTalkNPC.h */,
+				D5489478185027D400AA9C3B /* CTalkNPC.cpp */,
+			);
+			path = "SWF-RPG";
+			sourceTree = "<group>";
+		};
+		D5DEABFD1827E328002D735A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5DEABFE1827E328002D735A /* SWF-RPG-Info.plist */,
+				D5DEABFF1827E328002D735A /* InfoPlist.strings */,
+				D5DEAC041827E328002D735A /* SWF-RPG-Prefix.pch */,
+				D5DEAC051827E328002D735A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5DEAC1A1827E328002D735A /* SWF-RPGTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5DEAC201827E328002D735A /* SWF_RPGTests.m */,
+				D5DEAC1B1827E328002D735A /* Supporting Files */,
+			);
+			path = "SWF-RPGTests";
+			sourceTree = "<group>";
+		};
+		D5DEAC1B1827E328002D735A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5DEAC1C1827E328002D735A /* SWF-RPGTests-Info.plist */,
+				D5DEAC1D1827E328002D735A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5DEABF21827E328002D735A /* SWF-RPG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DEAC241827E328002D735A /* Build configuration list for PBXNativeTarget "SWF-RPG" */;
+			buildPhases = (
+				D5DEABEF1827E328002D735A /* Sources */,
+				D5DEABF01827E328002D735A /* Frameworks */,
+				D5DEABF11827E328002D735A /* Resources */,
+				D5862F6B18303B120037989A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SWF-RPG";
+			productName = "SWF-RPG";
+			productReference = D5DEABF31827E328002D735A /* SWF-RPG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5DEAC131827E328002D735A /* SWF-RPGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DEAC271827E328002D735A /* Build configuration list for PBXNativeTarget "SWF-RPGTests" */;
+			buildPhases = (
+				D5DEAC101827E328002D735A /* Sources */,
+				D5DEAC111827E328002D735A /* Frameworks */,
+				D5DEAC121827E328002D735A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5DEAC191827E328002D735A /* PBXTargetDependency */,
+			);
+			name = "SWF-RPGTests";
+			productName = "SWF-RPGTests";
+			productReference = D5DEAC141827E328002D735A /* SWF-RPGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5DEABEB1827E328002D735A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sea Water Fox";
+				TargetAttributes = {
+					D5DEAC131827E328002D735A = {
+						TestTargetID = D5DEABF21827E328002D735A;
+					};
+				};
+			};
+			buildConfigurationList = D5DEABEE1827E328002D735A /* Build configuration list for PBXProject "SWF-RPG" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5DEABEA1827E328002D735A;
+			productRefGroup = D5DEABF41827E328002D735A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5DEABF21827E328002D735A /* SWF-RPG */,
+				D5DEAC131827E328002D735A /* SWF-RPGTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5DEABF11827E328002D735A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D548946C184FC01C00AA9C3B /* player_template.pdn in Resources */,
+				D5489474184FC01C00AA9C3B /* t1.bmp in Resources */,
+				D5489470184FC01C00AA9C3B /* yoshi.bmp in Resources */,
+				D548947F1850355300AA9C3B /* 3.swflvl in Resources */,
+				D5DEAC011827E328002D735A /* InfoPlist.strings in Resources */,
+				D5489469184FC01C00AA9C3B /* o.bmp in Resources */,
+				D5489472184FC01C00AA9C3B /* 1.swflvl in Resources */,
+				D5DEAC0F1827E328002D735A /* Images.xcassets in Resources */,
+				D5DEAC071827E328002D735A /* Credits.rtf in Resources */,
+				D5489475184FC01C00AA9C3B /* t1.png in Resources */,
+				D548947D185032DD00AA9C3B /* dna-char.png in Resources */,
+				D5489468184FC01C00AA9C3B /* entity2.bmp in Resources */,
+				D548946F184FC01C00AA9C3B /* x.bmp in Resources */,
+				D548946A184FC01C00AA9C3B /* player-2.png in Resources */,
+				D5489473184FC01C00AA9C3B /* 2.swflvl in Resources */,
+				D548946B184FC01C00AA9C3B /* player.png in Resources */,
+				D5489466184FC01C00AA9C3B /* grid.bmp in Resources */,
+				D5489467184FC01C00AA9C3B /* entity1.bmp in Resources */,
+				D54894811850372800AA9C3B /* dan-the-dna-man.png in Resources */,
+				D5489471184FC01C00AA9C3B /* 1.area in Resources */,
+				D5489476184FC01C00AA9C3B /* t2.png in Resources */,
+				D5DEAC0D1827E328002D735A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DEAC121827E328002D735A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DEAC1F1827E328002D735A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5DEABEF1827E328002D735A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DEAC58182809E5002D735A /* CEvent.cpp in Sources */,
+				D5DEAC51182809E5002D735A /* CApp_OnInit.cpp in Sources */,
+				D5DEAC4F182809E5002D735A /* CApp_OnCleanup.cpp in Sources */,
+				D5DEAC52182809E5002D735A /* CApp_OnLoop.cpp in Sources */,
+				D5DEAC57182809E5002D735A /* CEntity.cpp in Sources */,
+				D5DEAC2E1827E3DB002D735A /* SDLMain.m in Sources */,
+				D5DEAC56182809E5002D735A /* CCamera.cpp in Sources */,
+				D5DEAC0A1827E328002D735A /* AppDelegate.m in Sources */,
+				D5DEAC50182809E5002D735A /* CApp_OnEvent.cpp in Sources */,
+				D5DEAC59182809E5002D735A /* CFPS.cpp in Sources */,
+				D5DEAC5A182809E5002D735A /* CMap.cpp in Sources */,
+				D5DEAC4E182809E5002D735A /* CAnimation.cpp in Sources */,
+				D5DEAC5B182809E5002D735A /* CPlayer.cpp in Sources */,
+				D5DEAC53182809E5002D735A /* CApp_OnRender.cpp in Sources */,
+				D5DEAC55182809E5002D735A /* CArea.cpp in Sources */,
+				D5DEAC5C182809E5002D735A /* CSurface.cpp in Sources */,
+				D5489479185027D400AA9C3B /* CTalkNPC.cpp in Sources */,
+				D5DEAC5D182809E5002D735A /* CTile.cpp in Sources */,
+				D5DEAC54182809E5002D735A /* CApp.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DEAC101827E328002D735A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DEAC211827E328002D735A /* SWF_RPGTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5DEAC191827E328002D735A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5DEABF21827E328002D735A /* SWF-RPG */;
+			targetProxy = D5DEAC181827E328002D735A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5DEABFF1827E328002D735A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5DEAC001827E328002D735A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D5DEAC051827E328002D735A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5DEAC061827E328002D735A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D5DEAC0B1827E328002D735A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5DEAC0C1827E328002D735A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D5DEAC1D1827E328002D735A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5DEAC1E1827E328002D735A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5DEAC221827E328002D735A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D5DEAC231827E328002D735A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D5DEAC251827E328002D735A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SWF-RPG/SWF-RPG-Prefix.pch";
+				INFOPLIST_FILE = "SWF-RPG/SWF-RPG-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D5DEAC261827E328002D735A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SWF-RPG/SWF-RPG-Prefix.pch";
+				INFOPLIST_FILE = "SWF-RPG/SWF-RPG-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D5DEAC281827E328002D735A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SWF-RPG.app/Contents/MacOS/SWF-RPG";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SWF-RPG/SWF-RPG-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SWF-RPGTests/SWF-RPGTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D5DEAC291827E328002D735A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SWF-RPG.app/Contents/MacOS/SWF-RPG";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SWF-RPG/SWF-RPG-Prefix.pch";
+				INFOPLIST_FILE = "SWF-RPGTests/SWF-RPGTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5DEABEE1827E328002D735A /* Build configuration list for PBXProject "SWF-RPG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DEAC221827E328002D735A /* Debug */,
+				D5DEAC231827E328002D735A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5DEAC241827E328002D735A /* Build configuration list for PBXNativeTarget "SWF-RPG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DEAC251827E328002D735A /* Debug */,
+				D5DEAC261827E328002D735A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5DEAC271827E328002D735A /* Build configuration list for PBXNativeTarget "SWF-RPGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DEAC281827E328002D735A /* Debug */,
+				D5DEAC291827E328002D735A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5DEABEB1827E328002D735A /* Project object */;
+}
