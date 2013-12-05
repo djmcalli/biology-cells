@@ -41,6 +41,7 @@ bool CApp::OnInit() {
     NpcName.X = 150;
     Npc2.X = 150;
     Npc2Name.X = 150;
+    NpcName.Dead = true;
     Npc2Name.Dead = true;
     //Player2.Dead = true;
     //Player.Flags = 0;
@@ -55,7 +56,9 @@ bool CApp::OnInit() {
 
     CEntity::EntityList.push_back(&Player);
     CEntity::EntityList.push_back(&Npc);
+    CEntity::EntityList.push_back(&NpcName);
     CEntity::EntityList.push_back(&Npc2);
+    CEntity::EntityList.push_back(&Npc2Name);
 
     CCamera::CameraControl.TargetMode = TARGET_MODE_CENTER;
     CCamera::CameraControl.SetTarget(&Player.X, &Player.Y);
