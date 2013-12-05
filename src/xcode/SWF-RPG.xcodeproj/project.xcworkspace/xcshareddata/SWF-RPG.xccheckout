@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0C928183-BE17-44A9-B5CC-FAEEB45516C1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SWF-RPG</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E96ACBCB-023F-4D8C-BF13-DD8DE12DC071</key>
+		<string>https://github.com/dmcall774/biology-cells.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>src/xcode/SWF-RPG.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E96ACBCB-023F-4D8C-BF13-DD8DE12DC071</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dmcall774/biology-cells.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E96ACBCB-023F-4D8C-BF13-DD8DE12DC071</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E96ACBCB-023F-4D8C-BF13-DD8DE12DC071</string>
+			<key>IDESourceControlWCCName</key>
+			<string>biology-cells</string>
+		</dict>
+	</array>
+</dict>
+</plist>
