@@ -31,6 +31,7 @@ void setMusicPlaying(bool mP) {
 }
 
 bool CMusic::OnPlay(char* File) {
+    Mix_HaltMusic();
     int audio_rate = 44100;
     Uint16 audio_format = AUDIO_S16SYS;
     int audio_channel = 2;
