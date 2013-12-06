@@ -22,6 +22,9 @@
 		D548947D185032DD00AA9C3B /* dna-char.png in Resources */ = {isa = PBXBuildFile; fileRef = D548947C185032DD00AA9C3B /* dna-char.png */; };
 		D548947F1850355300AA9C3B /* 3.swflvl in Resources */ = {isa = PBXBuildFile; fileRef = D548947E1850355300AA9C3B /* 3.swflvl */; };
 		D54894811850372800AA9C3B /* dan-the-dna-man.png in Resources */ = {isa = PBXBuildFile; fileRef = D54894801850372800AA9C3B /* dan-the-dna-man.png */; };
+		D580C38C185242A800AC6675 /* laurie-recording.ogg in Resources */ = {isa = PBXBuildFile; fileRef = D580C38B185242A800AC6675 /* laurie-recording.ogg */; };
+		D580C38E1852437A00AC6675 /* erica-recording.ogg in Resources */ = {isa = PBXBuildFile; fileRef = D580C38D1852437A00AC6675 /* erica-recording.ogg */; };
+		D580C3901852460300AC6675 /* brenden-recording.ogg in Resources */ = {isa = PBXBuildFile; fileRef = D580C38F1852460300AC6675 /* brenden-recording.ogg */; };
 		D5862F6E18303B390037989A /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5862F6C18303B390037989A /* SDL_image.framework */; };
 		D5862F6F18303B390037989A /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5862F6D18303B390037989A /* SDL.framework */; };
 		D5862F7018303B4D0037989A /* SDL_image.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D5862F6C18303B390037989A /* SDL_image.framework */; };
@@ -107,6 +110,9 @@
 		D548947C185032DD00AA9C3B /* dna-char.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dna-char.png"; sourceTree = "<group>"; };
 		D548947E1850355300AA9C3B /* 3.swflvl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3.swflvl; sourceTree = "<group>"; };
 		D54894801850372800AA9C3B /* dan-the-dna-man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dan-the-dna-man.png"; sourceTree = "<group>"; };
+		D580C38B185242A800AC6675 /* laurie-recording.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = "laurie-recording.ogg"; sourceTree = "<group>"; };
+		D580C38D1852437A00AC6675 /* erica-recording.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = "erica-recording.ogg"; sourceTree = "<group>"; };
+		D580C38F1852460300AC6675 /* brenden-recording.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = "brenden-recording.ogg"; sourceTree = "<group>"; };
 		D5862F6C18303B390037989A /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = ../../../../../Library/Frameworks/SDL_image.framework; sourceTree = "<group>"; };
 		D5862F6D18303B390037989A /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = ../../../../../Library/Frameworks/SDL.framework; sourceTree = "<group>"; };
 		D5862F7218303D6F0037989A /* SDL_net.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_net.framework; path = ../../../../../Library/Frameworks/SDL_net.framework; sourceTree = "<group>"; };
@@ -248,6 +254,9 @@
 		D593D5B318511AFF00404572 /* sfx */ = {
 			isa = PBXGroup;
 			children = (
+				D580C38F1852460300AC6675 /* brenden-recording.ogg */,
+				D580C38D1852437A00AC6675 /* erica-recording.ogg */,
+				D580C38B185242A800AC6675 /* laurie-recording.ogg */,
 				D521C9EA18517E73004D022F /* dandna.ogg */,
 				D593D5BB185135BB00404572 /* Bullseye.ogg */,
 			);
@@ -451,6 +460,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D59CFE49185167B700BB9ABD /* erica.png in Resources */,
+				D580C38C185242A800AC6675 /* laurie-recording.ogg in Resources */,
 				D548946C184FC01C00AA9C3B /* player_template.pdn in Resources */,
 				D5489474184FC01C00AA9C3B /* t1.bmp in Resources */,
 				D59CFE4A185167B700BB9ABD /* laurie.png in Resources */,
@@ -467,7 +477,9 @@
 				D5489473184FC01C00AA9C3B /* 2.swflvl in Resources */,
 				D548946B184FC01C00AA9C3B /* player.png in Resources */,
 				D5489466184FC01C00AA9C3B /* grid.bmp in Resources */,
+				D580C38E1852437A00AC6675 /* erica-recording.ogg in Resources */,
 				D54894811850372800AA9C3B /* dan-the-dna-man.png in Resources */,
+				D580C3901852460300AC6675 /* brenden-recording.ogg in Resources */,
 				D521C9EB18517E73004D022F /* dandna.ogg in Resources */,
 				D593D5BC185135BB00404572 /* Bullseye.ogg in Resources */,
 				D5489471184FC01C00AA9C3B /* 1.area in Resources */,

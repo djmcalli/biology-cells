@@ -42,7 +42,13 @@ void CPlayer::OnCollision(CEntity* Entity) {
             CMusic::MusicControl.OnPlay("Cells.app/Contents/Resources/dandna.ogg");
             break;
         case 2:
-            //CMusic::MusicControl.OnPlay("Cells.app/Contents/Resources/bullseye.ogg");
+            CMusic::MusicControl.OnPlay("Cells.app/Contents/Resources/brenden-recording.ogg");
+            break;
+        case 3:
+            CMusic::MusicControl.OnPlay("Cells.app/Contents/Resources/erica-recording.ogg");
+            break;
+        case 4:
+            CMusic::MusicControl.OnPlay("Cells.app/Contents/Resources/laurie-recording.ogg");
             break;
         default:
             
