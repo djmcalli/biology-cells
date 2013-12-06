@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D5DEABF21827E328002D735A"
                BuildableName = "SWF-RPG.app"
-               BlueprintName = "SWF-RPG"
-               ReferencedContainer = "container:SWF-RPG.xcodeproj">
+               BlueprintName = "Cells"
+               ReferencedContainer = "container:Cells.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D5DEAC131827E328002D735A"
                BuildableName = "SWF-RPGTests.xctest"
-               BlueprintName = "SWF-RPGTests"
-               ReferencedContainer = "container:SWF-RPG.xcodeproj">
+               BlueprintName = "CellsTests"
+               ReferencedContainer = "container:Cells.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D5DEABF21827E328002D735A"
             BuildableName = "SWF-RPG.app"
-            BlueprintName = "SWF-RPG"
-            ReferencedContainer = "container:SWF-RPG.xcodeproj">
+            BlueprintName = "Cells"
+            ReferencedContainer = "container:Cells.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D5DEABF21827E328002D735A"
             BuildableName = "SWF-RPG.app"
-            BlueprintName = "SWF-RPG"
-            ReferencedContainer = "container:SWF-RPG.xcodeproj">
+            BlueprintName = "Cells"
+            ReferencedContainer = "container:Cells.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D5DEABF21827E328002D735A"
             BuildableName = "SWF-RPG.app"
-            BlueprintName = "SWF-RPG"
-            ReferencedContainer = "container:SWF-RPG.xcodeproj">
+            BlueprintName = "Cells"
+            ReferencedContainer = "container:Cells.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

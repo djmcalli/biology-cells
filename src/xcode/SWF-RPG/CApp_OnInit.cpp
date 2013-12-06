@@ -12,29 +12,29 @@ bool CApp::OnInit() {
         return false;
     }
 
-    if (CArea::AreaControl.OnLoad("SWF-RPG.app/Contents/Resources/1.area") == false) {
+    if (CArea::AreaControl.OnLoad("Cells.app/Contents/Resources/1.area") == false) {
         return false;
     }
 
     SDL_EnableKeyRepeat(1, SDL_DEFAULT_REPEAT_INTERVAL / 3);
 
-    if (Player.OnLoad("SWF-RPG.app/Contents/Resources/player-2.png", 64, 64, 8) == false) {
+    if (Player.OnLoad("Cells.app/Contents/Resources/player-2.png", 64, 64, 8) == false) {
         return false;
     }
     
-    if (Npc.OnLoad("SWF-RPG.app/Contents/Resources/dna-char.png", 64, 64, 8) == false) {
+    if (Npc.OnLoad("Cells.app/Contents/Resources/dna-char.png", 64, 64, 8) == false) {
         return false;
     }
     
-    if (NpcName.OnLoad("SWF-RPG.app/Contents/Resources/dan-the-dna-man.png", 64, 64, 8) == false) {
+    if (NpcName.OnLoad("Cells.app/Contents/Resources/dan-the-dna-man.png", 64, 64, 8) == false) {
         return false;
     }
     
-    if (Npc2.OnLoad("SWF-RPG.app/Contents/Resources/dna-char.png", 64, 64, 8) == false) {
+    if (Npc2.OnLoad("Cells.app/Contents/Resources/dna-char.png", 64, 64, 8) == false) {
         return false;
     }
     
-    if (Npc2Name.OnLoad("SWF-RPG.app/Contents/Resources/dan-the-dna-man.png", 64, 64, 8) == false) {
+    if (Npc2Name.OnLoad("Cells.app/Contents/Resources/dan-the-dna-man.png", 64, 64, 8) == false) {
         return false;
     }
     Npc.X = 150;

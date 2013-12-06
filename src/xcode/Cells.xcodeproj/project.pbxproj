@@ -106,22 +106,22 @@
 		D593D5B818512A3300404572 /* CMusic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CMusic.cpp; sourceTree = "<group>"; };
 		D593D5B918512A3300404572 /* CMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMusic.h; sourceTree = "<group>"; };
 		D593D5BB185135BB00404572 /* Bullseye.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = Bullseye.ogg; path = sfx/Bullseye.ogg; sourceTree = "<group>"; };
-		D5DEABF31827E328002D735A /* SWF-RPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SWF-RPG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DEABF31827E328002D735A /* Cells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5DEABF61827E328002D735A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D5DEABF91827E328002D735A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		D5DEABFA1827E328002D735A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D5DEABFB1827E328002D735A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D5DEABFE1827E328002D735A /* SWF-RPG-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SWF-RPG-Info.plist"; sourceTree = "<group>"; };
+		D5DEABFE1827E328002D735A /* Cells-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cells-Info.plist"; sourceTree = "<group>"; };
 		D5DEAC001827E328002D735A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D5DEAC041827E328002D735A /* SWF-RPG-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SWF-RPG-Prefix.pch"; sourceTree = "<group>"; };
+		D5DEAC041827E328002D735A /* Cells-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cells-Prefix.pch"; sourceTree = "<group>"; };
 		D5DEAC061827E328002D735A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		D5DEAC081827E328002D735A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D5DEAC091827E328002D735A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D5DEAC0C1827E328002D735A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D5DEAC0E1827E328002D735A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D5DEAC141827E328002D735A /* SWF-RPGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SWF-RPGTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DEAC141827E328002D735A /* CellsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5DEAC151827E328002D735A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		D5DEAC1C1827E328002D735A /* SWF-RPGTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SWF-RPGTests-Info.plist"; sourceTree = "<group>"; };
+		D5DEAC1C1827E328002D735A /* CellsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CellsTests-Info.plist"; sourceTree = "<group>"; };
 		D5DEAC1E1827E328002D735A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D5DEAC201827E328002D735A /* SWF_RPGTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWF_RPGTests.m; sourceTree = "<group>"; };
 		D5DEAC2C1827E3DB002D735A /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
@@ -247,8 +247,8 @@
 		D5DEABF41827E328002D735A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D5DEABF31827E328002D735A /* SWF-RPG.app */,
-				D5DEAC141827E328002D735A /* SWF-RPGTests.xctest */,
+				D5DEABF31827E328002D735A /* Cells.app */,
+				D5DEAC141827E328002D735A /* CellsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -326,9 +326,9 @@
 		D5DEABFD1827E328002D735A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D5DEABFE1827E328002D735A /* SWF-RPG-Info.plist */,
+				D5DEABFE1827E328002D735A /* Cells-Info.plist */,
 				D5DEABFF1827E328002D735A /* InfoPlist.strings */,
-				D5DEAC041827E328002D735A /* SWF-RPG-Prefix.pch */,
+				D5DEAC041827E328002D735A /* Cells-Prefix.pch */,
 				D5DEAC051827E328002D735A /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -346,7 +346,7 @@
 		D5DEAC1B1827E328002D735A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D5DEAC1C1827E328002D735A /* SWF-RPGTests-Info.plist */,
+				D5DEAC1C1827E328002D735A /* CellsTests-Info.plist */,
 				D5DEAC1D1827E328002D735A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -355,9 +355,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D5DEABF21827E328002D735A /* SWF-RPG */ = {
+		D5DEABF21827E328002D735A /* Cells */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5DEAC241827E328002D735A /* Build configuration list for PBXNativeTarget "SWF-RPG" */;
+			buildConfigurationList = D5DEAC241827E328002D735A /* Build configuration list for PBXNativeTarget "Cells" */;
 			buildPhases = (
 				D5DEABEF1827E328002D735A /* Sources */,
 				D5DEABF01827E328002D735A /* Frameworks */,
@@ -368,14 +368,14 @@
 			);
 			dependencies = (
 			);
-			name = "SWF-RPG";
+			name = Cells;
 			productName = "SWF-RPG";
-			productReference = D5DEABF31827E328002D735A /* SWF-RPG.app */;
+			productReference = D5DEABF31827E328002D735A /* Cells.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D5DEAC131827E328002D735A /* SWF-RPGTests */ = {
+		D5DEAC131827E328002D735A /* CellsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5DEAC271827E328002D735A /* Build configuration list for PBXNativeTarget "SWF-RPGTests" */;
+			buildConfigurationList = D5DEAC271827E328002D735A /* Build configuration list for PBXNativeTarget "CellsTests" */;
 			buildPhases = (
 				D5DEAC101827E328002D735A /* Sources */,
 				D5DEAC111827E328002D735A /* Frameworks */,
@@ -386,9 +386,9 @@
 			dependencies = (
 				D5DEAC191827E328002D735A /* PBXTargetDependency */,
 			);
-			name = "SWF-RPGTests";
+			name = CellsTests;
 			productName = "SWF-RPGTests";
-			productReference = D5DEAC141827E328002D735A /* SWF-RPGTests.xctest */;
+			productReference = D5DEAC141827E328002D735A /* CellsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -398,14 +398,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = "Sea Water Fox";
+				ORGANIZATIONNAME = "Dylan McAllister";
 				TargetAttributes = {
 					D5DEAC131827E328002D735A = {
 						TestTargetID = D5DEABF21827E328002D735A;
 					};
 				};
 			};
-			buildConfigurationList = D5DEABEE1827E328002D735A /* Build configuration list for PBXProject "SWF-RPG" */;
+			buildConfigurationList = D5DEABEE1827E328002D735A /* Build configuration list for PBXProject "Cells" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -418,8 +418,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D5DEABF21827E328002D735A /* SWF-RPG */,
-				D5DEAC131827E328002D735A /* SWF-RPGTests */,
+				D5DEABF21827E328002D735A /* Cells */,
+				D5DEAC131827E328002D735A /* CellsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -501,7 +501,7 @@
 /* Begin PBXTargetDependency section */
 		D5DEAC191827E328002D735A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D5DEABF21827E328002D735A /* SWF-RPG */;
+			target = D5DEABF21827E328002D735A /* Cells */;
 			targetProxy = D5DEAC181827E328002D735A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -620,10 +620,10 @@
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SWF-RPG/SWF-RPG-Prefix.pch";
-				INFOPLIST_FILE = "SWF-RPG/SWF-RPG-Info.plist";
+				GCC_PREFIX_HEADER = "SWF-RPG/Cells-Prefix.pch";
+				INFOPLIST_FILE = "SWF-RPG/Cells-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Cells;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -638,10 +638,10 @@
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SWF-RPG/SWF-RPG-Prefix.pch";
-				INFOPLIST_FILE = "SWF-RPG/SWF-RPG-Info.plist";
+				GCC_PREFIX_HEADER = "SWF-RPG/Cells-Prefix.pch";
+				INFOPLIST_FILE = "SWF-RPG/Cells-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Cells;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -661,8 +661,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "SWF-RPGTests/SWF-RPGTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "SWF-RPGTests/CellsTests-Info.plist";
+				PRODUCT_NAME = CellsTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -679,8 +679,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SWF-RPG/SWF-RPG-Prefix.pch";
-				INFOPLIST_FILE = "SWF-RPGTests/SWF-RPGTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "SWF-RPGTests/CellsTests-Info.plist";
+				PRODUCT_NAME = CellsTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -689,7 +689,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D5DEABEE1827E328002D735A /* Build configuration list for PBXProject "SWF-RPG" */ = {
+		D5DEABEE1827E328002D735A /* Build configuration list for PBXProject "Cells" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5DEAC221827E328002D735A /* Debug */,
@@ -698,7 +698,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5DEAC241827E328002D735A /* Build configuration list for PBXNativeTarget "SWF-RPG" */ = {
+		D5DEAC241827E328002D735A /* Build configuration list for PBXNativeTarget "Cells" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5DEAC251827E328002D735A /* Debug */,
@@ -707,7 +707,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5DEAC271827E328002D735A /* Build configuration list for PBXNativeTarget "SWF-RPGTests" */ = {
+		D5DEAC271827E328002D735A /* Build configuration list for PBXNativeTarget "CellsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5DEAC281827E328002D735A /* Debug */,
