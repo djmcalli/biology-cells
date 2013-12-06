@@ -25,8 +25,12 @@ class CApp : public CEvent {
         CPlayer			Player;
         CTalkNPC		Npc;
         CTalkNPC		NpcName;
-        CTalkNPC		Npc2;
-        CTalkNPC		Npc2Name;
+        CTalkNPC		Brenden;
+        CTalkNPC		BrendenName;
+        CTalkNPC		Erica;
+        CTalkNPC		EricaName;
+        CTalkNPC		Laurie;
+        CTalkNPC		LaurieName;
 
     public:
         CApp();

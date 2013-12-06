@@ -32,6 +32,9 @@
 		D59CFE48185167B700BB9ABD /* brenden.png in Resources */ = {isa = PBXBuildFile; fileRef = D59CFE45185167B700BB9ABD /* brenden.png */; };
 		D59CFE49185167B700BB9ABD /* erica.png in Resources */ = {isa = PBXBuildFile; fileRef = D59CFE46185167B700BB9ABD /* erica.png */; };
 		D59CFE4A185167B700BB9ABD /* laurie.png in Resources */ = {isa = PBXBuildFile; fileRef = D59CFE47185167B700BB9ABD /* laurie.png */; };
+		D59CFE4E18516AB500BB9ABD /* brenden-name.png in Resources */ = {isa = PBXBuildFile; fileRef = D59CFE4B18516AB500BB9ABD /* brenden-name.png */; };
+		D59CFE4F18516AB500BB9ABD /* erica-name.png in Resources */ = {isa = PBXBuildFile; fileRef = D59CFE4C18516AB500BB9ABD /* erica-name.png */; };
+		D59CFE5018516AB500BB9ABD /* laurie-name.png in Resources */ = {isa = PBXBuildFile; fileRef = D59CFE4D18516AB500BB9ABD /* laurie-name.png */; };
 		D5DEABF71827E328002D735A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DEABF61827E328002D735A /* Cocoa.framework */; };
 		D5DEAC011827E328002D735A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5DEABFF1827E328002D735A /* InfoPlist.strings */; };
 		D5DEAC071827E328002D735A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D5DEAC051827E328002D735A /* Credits.rtf */; };
@@ -112,6 +115,9 @@
 		D59CFE45185167B700BB9ABD /* brenden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brenden.png; sourceTree = "<group>"; };
 		D59CFE46185167B700BB9ABD /* erica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = erica.png; sourceTree = "<group>"; };
 		D59CFE47185167B700BB9ABD /* laurie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laurie.png; sourceTree = "<group>"; };
+		D59CFE4B18516AB500BB9ABD /* brenden-name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brenden-name.png"; sourceTree = "<group>"; };
+		D59CFE4C18516AB500BB9ABD /* erica-name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "erica-name.png"; sourceTree = "<group>"; };
+		D59CFE4D18516AB500BB9ABD /* laurie-name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "laurie-name.png"; sourceTree = "<group>"; };
 		D5DEABF31827E328002D735A /* Cells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5DEABF61827E328002D735A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D5DEABF91827E328002D735A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -201,6 +207,9 @@
 			isa = PBXGroup;
 			children = (
 				D59CFE45185167B700BB9ABD /* brenden.png */,
+				D59CFE4B18516AB500BB9ABD /* brenden-name.png */,
+				D59CFE4C18516AB500BB9ABD /* erica-name.png */,
+				D59CFE4D18516AB500BB9ABD /* laurie-name.png */,
 				D59CFE46185167B700BB9ABD /* erica.png */,
 				D59CFE47185167B700BB9ABD /* laurie.png */,
 				D5489451184FC01C00AA9C3B /* grid.bmp */,
@@ -448,8 +457,10 @@
 				D5DEAC0F1827E328002D735A /* Images.xcassets in Resources */,
 				D5DEAC071827E328002D735A /* Credits.rtf in Resources */,
 				D5489475184FC01C00AA9C3B /* t1.png in Resources */,
+				D59CFE5018516AB500BB9ABD /* laurie-name.png in Resources */,
 				D548947D185032DD00AA9C3B /* dna-char.png in Resources */,
 				D548946A184FC01C00AA9C3B /* player-2.png in Resources */,
+				D59CFE4F18516AB500BB9ABD /* erica-name.png in Resources */,
 				D5489473184FC01C00AA9C3B /* 2.swflvl in Resources */,
 				D548946B184FC01C00AA9C3B /* player.png in Resources */,
 				D5489466184FC01C00AA9C3B /* grid.bmp in Resources */,
@@ -457,6 +468,7 @@
 				D593D5BC185135BB00404572 /* Bullseye.ogg in Resources */,
 				D5489471184FC01C00AA9C3B /* 1.area in Resources */,
 				D5489476184FC01C00AA9C3B /* t2.png in Resources */,
+				D59CFE4E18516AB500BB9ABD /* brenden-name.png in Resources */,
 				D59CFE48185167B700BB9ABD /* brenden.png in Resources */,
 				D5DEAC0D1827E328002D735A /* MainMenu.xib in Resources */,
 			);
