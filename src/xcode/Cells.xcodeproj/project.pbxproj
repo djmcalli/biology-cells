@@ -29,6 +29,9 @@
 		D593D5B21851172200404572 /* SDL_mixer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D593D5B01851170D00404572 /* SDL_mixer.framework */; };
 		D593D5BA18512A3300404572 /* CMusic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D593D5B818512A3300404572 /* CMusic.cpp */; };
 		D593D5BC185135BB00404572 /* Bullseye.ogg in Resources */ = {isa = PBXBuildFile; fileRef = D593D5BB185135BB00404572 /* Bullseye.ogg */; };
+		D59CFE48185167B700BB9ABD /* brenden.png in Resources */ = {isa = PBXBuildFile; fileRef = D59CFE45185167B700BB9ABD /* brenden.png */; };
+		D59CFE49185167B700BB9ABD /* erica.png in Resources */ = {isa = PBXBuildFile; fileRef = D59CFE46185167B700BB9ABD /* erica.png */; };
+		D59CFE4A185167B700BB9ABD /* laurie.png in Resources */ = {isa = PBXBuildFile; fileRef = D59CFE47185167B700BB9ABD /* laurie.png */; };
 		D5DEABF71827E328002D735A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DEABF61827E328002D735A /* Cocoa.framework */; };
 		D5DEAC011827E328002D735A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5DEABFF1827E328002D735A /* InfoPlist.strings */; };
 		D5DEAC071827E328002D735A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D5DEAC051827E328002D735A /* Credits.rtf */; };
@@ -106,6 +109,9 @@
 		D593D5B818512A3300404572 /* CMusic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CMusic.cpp; sourceTree = "<group>"; };
 		D593D5B918512A3300404572 /* CMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMusic.h; sourceTree = "<group>"; };
 		D593D5BB185135BB00404572 /* Bullseye.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = Bullseye.ogg; path = sfx/Bullseye.ogg; sourceTree = "<group>"; };
+		D59CFE45185167B700BB9ABD /* brenden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brenden.png; sourceTree = "<group>"; };
+		D59CFE46185167B700BB9ABD /* erica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = erica.png; sourceTree = "<group>"; };
+		D59CFE47185167B700BB9ABD /* laurie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laurie.png; sourceTree = "<group>"; };
 		D5DEABF31827E328002D735A /* Cells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5DEABF61827E328002D735A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D5DEABF91827E328002D735A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -194,6 +200,9 @@
 		D5489450184FC01C00AA9C3B /* gfx */ = {
 			isa = PBXGroup;
 			children = (
+				D59CFE45185167B700BB9ABD /* brenden.png */,
+				D59CFE46185167B700BB9ABD /* erica.png */,
+				D59CFE47185167B700BB9ABD /* laurie.png */,
 				D5489451184FC01C00AA9C3B /* grid.bmp */,
 				D548947C185032DD00AA9C3B /* dna-char.png */,
 				D5489456184FC01C00AA9C3B /* player-2.png */,
@@ -429,8 +438,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D59CFE49185167B700BB9ABD /* erica.png in Resources */,
 				D548946C184FC01C00AA9C3B /* player_template.pdn in Resources */,
 				D5489474184FC01C00AA9C3B /* t1.bmp in Resources */,
+				D59CFE4A185167B700BB9ABD /* laurie.png in Resources */,
 				D548947F1850355300AA9C3B /* 3.swflvl in Resources */,
 				D5DEAC011827E328002D735A /* InfoPlist.strings in Resources */,
 				D5489472184FC01C00AA9C3B /* 1.swflvl in Resources */,
@@ -446,6 +457,7 @@
 				D593D5BC185135BB00404572 /* Bullseye.ogg in Resources */,
 				D5489471184FC01C00AA9C3B /* 1.area in Resources */,
 				D5489476184FC01C00AA9C3B /* t2.png in Resources */,
+				D59CFE48185167B700BB9ABD /* brenden.png in Resources */,
 				D5DEAC0D1827E328002D735A /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
