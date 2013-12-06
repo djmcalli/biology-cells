@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D521C9EB18517E73004D022F /* dandna.ogg in Resources */ = {isa = PBXBuildFile; fileRef = D521C9EA18517E73004D022F /* dandna.ogg */; };
 		D5489466184FC01C00AA9C3B /* grid.bmp in Resources */ = {isa = PBXBuildFile; fileRef = D5489451184FC01C00AA9C3B /* grid.bmp */; };
 		D548946A184FC01C00AA9C3B /* player-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D5489456184FC01C00AA9C3B /* player-2.png */; };
 		D548946B184FC01C00AA9C3B /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = D5489457184FC01C00AA9C3B /* player.png */; };
@@ -90,6 +91,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D521C9EA18517E73004D022F /* dandna.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = dandna.ogg; sourceTree = "<group>"; };
 		D5489451184FC01C00AA9C3B /* grid.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = grid.bmp; sourceTree = "<group>"; };
 		D5489456184FC01C00AA9C3B /* player-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player-2.png"; sourceTree = "<group>"; };
 		D5489457184FC01C00AA9C3B /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
@@ -246,6 +248,7 @@
 		D593D5B318511AFF00404572 /* sfx */ = {
 			isa = PBXGroup;
 			children = (
+				D521C9EA18517E73004D022F /* dandna.ogg */,
 				D593D5BB185135BB00404572 /* Bullseye.ogg */,
 			);
 			name = sfx;
@@ -465,6 +468,7 @@
 				D548946B184FC01C00AA9C3B /* player.png in Resources */,
 				D5489466184FC01C00AA9C3B /* grid.bmp in Resources */,
 				D54894811850372800AA9C3B /* dan-the-dna-man.png in Resources */,
+				D521C9EB18517E73004D022F /* dandna.ogg in Resources */,
 				D593D5BC185135BB00404572 /* Bullseye.ogg in Resources */,
 				D5489471184FC01C00AA9C3B /* 1.area in Resources */,
 				D5489476184FC01C00AA9C3B /* t2.png in Resources */,

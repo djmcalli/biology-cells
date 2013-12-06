@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D5DEABF21827E328002D735A"
-               BuildableName = "SWF-RPG.app"
+               BuildableName = "Cells.app"
                BlueprintName = "Cells"
                ReferencedContainer = "container:Cells.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D5DEAC131827E328002D735A"
-               BuildableName = "SWF-RPGTests.xctest"
+               BuildableName = "CellsTests.xctest"
                BlueprintName = "CellsTests"
                ReferencedContainer = "container:Cells.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D5DEABF21827E328002D735A"
-            BuildableName = "SWF-RPG.app"
+            BuildableName = "Cells.app"
             BlueprintName = "Cells"
             ReferencedContainer = "container:Cells.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D5DEABF21827E328002D735A"
-            BuildableName = "SWF-RPG.app"
+            BuildableName = "Cells.app"
             BlueprintName = "Cells"
             ReferencedContainer = "container:Cells.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D5DEABF21827E328002D735A"
-            BuildableName = "SWF-RPG.app"
+            BuildableName = "Cells.app"
             BlueprintName = "Cells"
             ReferencedContainer = "container:Cells.xcodeproj">
          </BuildableReference>

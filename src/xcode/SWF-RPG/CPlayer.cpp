@@ -39,7 +39,10 @@ void CPlayer::OnAnimate() {
 void CPlayer::OnCollision(CEntity* Entity) {
     switch (Entity->eid) {
         case 1:
-            CMusic::MusicControl.OnPlay("Cells.app/Contents/Resources/Bullseye.ogg");
+            CMusic::MusicControl.OnPlay("Cells.app/Contents/Resources/dandna.ogg");
+            break;
+        case 2:
+            CMusic::MusicControl.OnPlay("Cells.app/Contents/Resources/bullseye.ogg");
             break;
         default:
             

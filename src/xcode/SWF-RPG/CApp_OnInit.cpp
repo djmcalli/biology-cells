@@ -83,6 +83,8 @@ bool CApp::OnInit() {
     Brenden.eid = 2;
     Erica.eid = 3;
     Laurie.eid = 4;
+    
+    CMusic::MusicControl.OnPlay("Cells.app/Contents/Resources/dandna.ogg");
 
     CEntity::EntityList.push_back(&Player);
     CEntity::EntityList.push_back(&Npc);
