@@ -87,14 +87,16 @@ bool CApp::OnInit() {
     CMusic::MusicControl.OnPlay("Cells.app/Contents/Resources/dandna.ogg");
 
     CEntity::EntityList.push_back(&Npc);
-    CEntity::EntityList.push_back(&NpcName);
     CEntity::EntityList.push_back(&Brenden);
-    CEntity::EntityList.push_back(&BrendenName);
     CEntity::EntityList.push_back(&Erica);
-    CEntity::EntityList.push_back(&EricaName);
     CEntity::EntityList.push_back(&Laurie);
-    CEntity::EntityList.push_back(&LaurieName);
+    
     CEntity::EntityList.push_back(&Player);
+    
+    CEntity::EntityList.push_back(&NpcName);
+    CEntity::EntityList.push_back(&BrendenName);
+    CEntity::EntityList.push_back(&EricaName);
+    CEntity::EntityList.push_back(&LaurieName);
 
     CCamera::CameraControl.TargetMode = TARGET_MODE_CENTER;
     CCamera::CameraControl.SetTarget(&Player.X, &Player.Y);
