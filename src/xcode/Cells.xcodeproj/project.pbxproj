@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5007C7918552E8B005749BC /* cells_gui-aspectselect.png in Resources */ = {isa = PBXBuildFile; fileRef = D5007C7818552E8B005749BC /* cells_gui-aspectselect.png */; };
+		D5007C801855426F005749BC /* brenden-1.ogg in Resources */ = {isa = PBXBuildFile; fileRef = D5007C7A1855426F005749BC /* brenden-1.ogg */; };
+		D5007C811855426F005749BC /* brenden-2.ogg in Resources */ = {isa = PBXBuildFile; fileRef = D5007C7B1855426F005749BC /* brenden-2.ogg */; };
+		D5007C821855426F005749BC /* brenden-3.ogg in Resources */ = {isa = PBXBuildFile; fileRef = D5007C7C1855426F005749BC /* brenden-3.ogg */; };
+		D5007C831855426F005749BC /* brenden-4.ogg in Resources */ = {isa = PBXBuildFile; fileRef = D5007C7D1855426F005749BC /* brenden-4.ogg */; };
+		D5007C841855426F005749BC /* brenden-5.ogg in Resources */ = {isa = PBXBuildFile; fileRef = D5007C7E1855426F005749BC /* brenden-5.ogg */; };
+		D5007C851855426F005749BC /* brenden-overview.ogg in Resources */ = {isa = PBXBuildFile; fileRef = D5007C7F1855426F005749BC /* brenden-overview.ogg */; };
 		D521C9EB18517E73004D022F /* dandna.ogg in Resources */ = {isa = PBXBuildFile; fileRef = D521C9EA18517E73004D022F /* dandna.ogg */; };
 		D5489466184FC01C00AA9C3B /* grid.bmp in Resources */ = {isa = PBXBuildFile; fileRef = D5489451184FC01C00AA9C3B /* grid.bmp */; };
 		D548946A184FC01C00AA9C3B /* player-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D5489456184FC01C00AA9C3B /* player-2.png */; };
@@ -94,6 +101,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D5007C7818552E8B005749BC /* cells_gui-aspectselect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cells_gui-aspectselect.png"; sourceTree = "<group>"; };
+		D5007C7A1855426F005749BC /* brenden-1.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = "brenden-1.ogg"; sourceTree = "<group>"; };
+		D5007C7B1855426F005749BC /* brenden-2.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = "brenden-2.ogg"; sourceTree = "<group>"; };
+		D5007C7C1855426F005749BC /* brenden-3.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = "brenden-3.ogg"; sourceTree = "<group>"; };
+		D5007C7D1855426F005749BC /* brenden-4.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = "brenden-4.ogg"; sourceTree = "<group>"; };
+		D5007C7E1855426F005749BC /* brenden-5.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = "brenden-5.ogg"; sourceTree = "<group>"; };
+		D5007C7F1855426F005749BC /* brenden-overview.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = "brenden-overview.ogg"; sourceTree = "<group>"; };
 		D521C9EA18517E73004D022F /* dandna.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = dandna.ogg; sourceTree = "<group>"; };
 		D5489451184FC01C00AA9C3B /* grid.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = grid.bmp; sourceTree = "<group>"; };
 		D5489456184FC01C00AA9C3B /* player-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player-2.png"; sourceTree = "<group>"; };
@@ -214,6 +228,7 @@
 		D5489450184FC01C00AA9C3B /* gfx */ = {
 			isa = PBXGroup;
 			children = (
+				D5007C7818552E8B005749BC /* cells_gui-aspectselect.png */,
 				D59CFE45185167B700BB9ABD /* brenden.png */,
 				D59CFE4B18516AB500BB9ABD /* brenden-name.png */,
 				D59CFE4C18516AB500BB9ABD /* erica-name.png */,
@@ -254,6 +269,12 @@
 		D593D5B318511AFF00404572 /* sfx */ = {
 			isa = PBXGroup;
 			children = (
+				D5007C7A1855426F005749BC /* brenden-1.ogg */,
+				D5007C7B1855426F005749BC /* brenden-2.ogg */,
+				D5007C7C1855426F005749BC /* brenden-3.ogg */,
+				D5007C7D1855426F005749BC /* brenden-4.ogg */,
+				D5007C7E1855426F005749BC /* brenden-5.ogg */,
+				D5007C7F1855426F005749BC /* brenden-overview.ogg */,
 				D580C38F1852460300AC6675 /* brenden-recording.ogg */,
 				D580C38D1852437A00AC6675 /* erica-recording.ogg */,
 				D580C38B185242A800AC6675 /* laurie-recording.ogg */,
@@ -461,26 +482,33 @@
 			files = (
 				D59CFE49185167B700BB9ABD /* erica.png in Resources */,
 				D580C38C185242A800AC6675 /* laurie-recording.ogg in Resources */,
+				D5007C811855426F005749BC /* brenden-2.ogg in Resources */,
 				D548946C184FC01C00AA9C3B /* player_template.pdn in Resources */,
 				D5489474184FC01C00AA9C3B /* t1.bmp in Resources */,
 				D59CFE4A185167B700BB9ABD /* laurie.png in Resources */,
 				D548947F1850355300AA9C3B /* 3.swflvl in Resources */,
 				D5DEAC011827E328002D735A /* InfoPlist.strings in Resources */,
+				D5007C851855426F005749BC /* brenden-overview.ogg in Resources */,
 				D5489472184FC01C00AA9C3B /* 1.swflvl in Resources */,
 				D5DEAC0F1827E328002D735A /* Images.xcassets in Resources */,
 				D5DEAC071827E328002D735A /* Credits.rtf in Resources */,
 				D5489475184FC01C00AA9C3B /* t1.png in Resources */,
+				D5007C831855426F005749BC /* brenden-4.ogg in Resources */,
 				D59CFE5018516AB500BB9ABD /* laurie-name.png in Resources */,
+				D5007C801855426F005749BC /* brenden-1.ogg in Resources */,
 				D548947D185032DD00AA9C3B /* dna-char.png in Resources */,
 				D548946A184FC01C00AA9C3B /* player-2.png in Resources */,
 				D59CFE4F18516AB500BB9ABD /* erica-name.png in Resources */,
+				D5007C841855426F005749BC /* brenden-5.ogg in Resources */,
 				D5489473184FC01C00AA9C3B /* 2.swflvl in Resources */,
 				D548946B184FC01C00AA9C3B /* player.png in Resources */,
 				D5489466184FC01C00AA9C3B /* grid.bmp in Resources */,
 				D580C38E1852437A00AC6675 /* erica-recording.ogg in Resources */,
 				D54894811850372800AA9C3B /* dan-the-dna-man.png in Resources */,
+				D5007C821855426F005749BC /* brenden-3.ogg in Resources */,
 				D580C3901852460300AC6675 /* brenden-recording.ogg in Resources */,
 				D521C9EB18517E73004D022F /* dandna.ogg in Resources */,
+				D5007C7918552E8B005749BC /* cells_gui-aspectselect.png in Resources */,
 				D593D5BC185135BB00404572 /* Bullseye.ogg in Resources */,
 				D5489471184FC01C00AA9C3B /* 1.area in Resources */,
 				D5489476184FC01C00AA9C3B /* t2.png in Resources */,

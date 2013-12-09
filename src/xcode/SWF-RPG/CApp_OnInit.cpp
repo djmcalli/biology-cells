@@ -17,10 +17,6 @@ bool CApp::OnInit() {
     }
 
     SDL_EnableKeyRepeat(1, SDL_DEFAULT_REPEAT_INTERVAL / 3);
-
-    if (Player.OnLoad("Cells.app/Contents/Resources/player-2.png", 64, 64, 8) == false) {
-        return false;
-    }
     
     if (Npc.OnLoad("Cells.app/Contents/Resources/dna-char.png", 64, 64, 8) == false) {
         return false;
@@ -51,6 +47,10 @@ bool CApp::OnInit() {
     }
     
     if (LaurieName.OnLoad("Cells.app/Contents/Resources/laurie-name.png", 64, 64, 8) == false) {
+        return false;
+    }
+    
+    if (Player.OnLoad("Cells.app/Contents/Resources/player-2.png", 64, 64, 8) == false) {
         return false;
     }
     
@@ -86,7 +86,6 @@ bool CApp::OnInit() {
     
     CMusic::MusicControl.OnPlay("Cells.app/Contents/Resources/dandna.ogg");
 
-    CEntity::EntityList.push_back(&Player);
     CEntity::EntityList.push_back(&Npc);
     CEntity::EntityList.push_back(&NpcName);
     CEntity::EntityList.push_back(&Brenden);
@@ -95,6 +94,7 @@ bool CApp::OnInit() {
     CEntity::EntityList.push_back(&EricaName);
     CEntity::EntityList.push_back(&Laurie);
     CEntity::EntityList.push_back(&LaurieName);
+    CEntity::EntityList.push_back(&Player);
 
     CCamera::CameraControl.TargetMode = TARGET_MODE_CENTER;
     CCamera::CameraControl.SetTarget(&Player.X, &Player.Y);
