@@ -92,7 +92,6 @@ void CPlayer::OnCollision(CEntity* Entity) {
             
             break;
     }
-    std::cout << "Collided!: " << Entity->Type << " " << "ID: " << Entity->eid << "\n";
     
-    //canMove = true;
+    std::cout << "Collided!: " << Entity->Type << " " << "ID: " << Entity->eid << "\n";
 }
