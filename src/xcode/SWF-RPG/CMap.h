@@ -7,6 +7,9 @@
 #include "CTile.h"
 #include "CSurface.h"
 
+#include <iostream>
+using namespace std;
+
 class CMap {
     public:
         SDL_Surface* Surf_Tileset;
@@ -18,7 +21,7 @@ class CMap {
         CMap();
 
     public:
-        bool OnLoad(char* File);
+        bool OnLoad(string File);
 
         void OnRender(SDL_Surface* Surf_Display, int MapX, int MapY);
 

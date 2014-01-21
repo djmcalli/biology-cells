@@ -1,18 +1,16 @@
 #include "CArea.h"
 #include <iostream>
 
-using namespace std;
-
 CArea CArea::AreaControl;
 
 CArea::CArea() {
     AreaSize = 0;
 }
 
-bool CArea::OnLoad(char* File) {
+bool CArea::OnLoad(string File) {
     MapList.clear();
 
-    FILE* FileHandle = fopen(File, "r");
+    FILE* FileHandle = fopen(File.c_str(), "r");
 
     if (FileHandle == NULL) {
         cout << "BB LVL NO ES HERE 1";

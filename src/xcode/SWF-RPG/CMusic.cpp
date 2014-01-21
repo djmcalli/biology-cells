@@ -30,7 +30,7 @@ void setMusicPlaying(bool mP) {
     musicPlaying = mP;
 }
 
-bool CMusic::OnPlay(char* File) {
+bool CMusic::OnPlay(string File) {
     Mix_HaltMusic();
     int audio_rate = 44100;
     Uint16 audio_format = AUDIO_S16SYS;
@@ -43,7 +43,7 @@ bool CMusic::OnPlay(char* File) {
     }
     
     
-    music = Mix_LoadMUS(File);
+    music = Mix_LoadMUS(File.c_str());
     if (music == NULL) {
         // This is where the error occurs.
         fprintf(stderr, "Unable to load mp3 file: %s\n", Mix_GetError());

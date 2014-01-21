@@ -3,6 +3,8 @@
 
 #include "CMap.h"
 
+using namespace std;
+
 class CArea {
     public:
         static CArea            AreaControl;
@@ -16,7 +18,7 @@ class CArea {
     public:
         CArea();
 
-        bool    OnLoad(char* File);
+        bool    OnLoad(string File);
 
         int     AreaSize;
 

@@ -3,11 +3,11 @@
 CSurface::CSurface() {
 }
 
-SDL_Surface* CSurface::OnLoad(char* File) {
+SDL_Surface* CSurface::OnLoad(string File) {
 	SDL_Surface* Surf_Temp = NULL;
 	SDL_Surface* Surf_Return = NULL;
 
-	if((Surf_Temp = IMG_Load(File)) == NULL) {
+	if((Surf_Temp = IMG_Load(File.c_str())) == NULL) {
 		return NULL;
 	}
 

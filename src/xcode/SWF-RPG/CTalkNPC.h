@@ -9,12 +9,14 @@
 #define SWF_RPG_CTalkNPC_h
 
 #include "CEntity.h"
+#include <iostream>
+using namespace std;
 
 class CTalkNPC : public CEntity {
 public:
     CTalkNPC();
     
-    bool OnLoad(char* File, int Width, int Height, int MaxFrames);
+    bool OnLoad(string File, int Width, int Height, int MaxFrames);
     
     void OnLoop();
     

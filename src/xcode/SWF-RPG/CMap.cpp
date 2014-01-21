@@ -4,10 +4,10 @@ CMap::CMap() {
     Surf_Tileset = NULL;
 }
 
-bool CMap::OnLoad(char* File) {
+bool CMap::OnLoad(string File) {
     TileList.clear();
 
-    FILE* FileHandle = fopen(File, "r");
+    FILE* FileHandle = fopen(File.c_str(), "r");
 
     if (FileHandle == NULL) {
         return false;
@@ -33,7 +33,6 @@ void CMap::OnRender(SDL_Surface* Surf_Display, int MapX, int MapY) {
     if (Surf_Tileset == NULL) return;
 
     int TilesetWidth  = Surf_Tileset->w / TILE_SIZE;
-    int TilesetHeight = Surf_Tileset->h / TILE_SIZE;
 
     int ID = 0;
 

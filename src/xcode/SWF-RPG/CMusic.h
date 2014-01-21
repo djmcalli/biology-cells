@@ -11,6 +11,8 @@
 
 #include <SDL/SDL.h>
 #include <SDL_mixer/SDL_mixer.h>
+#include <iostream>
+using namespace std;
 
 class CMusic {
     
@@ -22,7 +24,7 @@ class CMusic {
     
         Mix_Music *music;
     
-        bool    OnPlay(char* File);
+        bool    OnPlay(string File);
         void    musicFinished();
         void    cleanUp();
 };

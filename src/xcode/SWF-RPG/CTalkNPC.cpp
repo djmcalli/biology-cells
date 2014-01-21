@@ -11,7 +11,7 @@
 CTalkNPC::CTalkNPC() {
 }
 
-bool CTalkNPC::OnLoad(char* File, int Width, int Height, int MaxFrames) {
+bool CTalkNPC::OnLoad(string File, int Width, int Height, int MaxFrames) {
     if(CEntity::OnLoad(File, Width, Height, MaxFrames) == false) {
         return false;
     }

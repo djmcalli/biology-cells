@@ -54,8 +54,8 @@ CEntity::CEntity() {
 CEntity::~CEntity() {
 }
 
-bool CEntity::OnLoad(char* File, int Width, int Height, int MaxFrames) {
-	if ((Surf_Entity = CSurface::OnLoad(File)) == NULL) {
+bool CEntity::OnLoad(string File, int Width, int Height, int MaxFrames) {
+	if ((Surf_Entity = CSurface::OnLoad(File.c_str())) == NULL) {
 		return false;
 	}
 

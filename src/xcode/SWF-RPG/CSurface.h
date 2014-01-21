@@ -3,13 +3,16 @@
 
 #include <SDL/SDL.h>
 #include <SDL_image/SDL_image.h>
+#include <iostream>
+
+using namespace std;
 
 class CSurface {
 	public:
 		CSurface();
 
 	public:
-		static SDL_Surface* OnLoad(char* File);
+		static SDL_Surface* OnLoad(string File);
 
 		static bool OnDraw(SDL_Surface* Surf_Dest, SDL_Surface* Surf_Src, int X, int Y);
 

@@ -3,6 +3,8 @@
 
 #include "CEntity.h"
 
+using namespace std;
+
 class CPlayer : public CEntity {
     protected:
         SDL_Surface*    GUI;
@@ -10,7 +12,7 @@ class CPlayer : public CEntity {
     public:
         CPlayer();
 
-		bool OnLoad(char* File, int Width, int Height, int MaxFrames);
+		bool OnLoad(string File, int Width, int Height, int MaxFrames);
     
         bool showGUI;
 
